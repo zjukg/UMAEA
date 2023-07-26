@@ -315,6 +315,25 @@ mmkg
 Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
 Thanks a lot :)
 
+```bigquery
+@inproceedings{chen2023rethinking,
+  author       = {Zhuo Chen and
+                  Lingbing Guo and
+                  Yin Fang and
+                  Yichi Zhang and
+                  Jiaoyan Chen and
+                  Wen Zhang and
+                  Jeff Z. Pan and
+                  Yangning Li and
+                  Huajun Chen},
+  title        = {Rethinking Uncertain Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment},
+  booktitle    = {{ISWC}},
+  series       = {Lecture Notes in Computer Science},
+  publisher    = {Springer},
+  year         = {2023}
+}
+```
+
 ## 💡 Acknowledgement
 - Our prior work: [```MEAformer```](https://github.com/zjukg/MEAformer), [```Multi-OpenEA```]()
 - We appreciate [```MCLEA```](https://github.com/lzxlin/MCLEA), [```MSNEA```](https://github.com/liyichen-cly/MSNEA), [```EVA```](https://github.com/cambridgeltl/eva), [```MMEA```](https://github.com/liyichen-cly/MMEA) and many other related works for their open-source contributions.
