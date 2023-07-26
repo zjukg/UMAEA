@@ -73,7 +73,23 @@ pip install -r requirement.txt
 
 ❗Tips: you can open the `run_umaea_X.sh` file for parameter or training target modification.
 
-## 📚 Dataset
+## 📚 Dataset (MMEA-UMVM)
+>To create our `MMEA-UMVM` (uncertainly missing visual modality) datasets, we perform **random image dropping** on MMEA datasets. Specifically, we randomly discard entity images to achieve varying degrees of visual modality missing, ranging from 0.05 to the maximum $R_{img}$ of the raw datasets with a step of 0.05 or 0.1. Finally, we get a total number of 97 data split as follow:
+
+<div align="center">
+    
+Dataset | $R_{img}$ 
+:---: | :---:  
+$DBP15K_{ZH-EN}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 0.75, 0.7829~(STD)$ 
+$DBP15K_{JA-EN}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 0.7032~(STD)$ 
+$DBP15K_{FR-EN}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.6758~(STD)$ 
+$OpenEA_{EN-FR}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 0.8, 0.9, 0.95, 1.0~(STD)$
+$OpenEA_{EN-DE}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 0.8, 0.9, 0.95, 1.0~(STD)$
+$OpenEA_{D-W-V1}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 0.8, 0.9, 0.95, 1.0~(STD)$ 
+$OpenEA_{D-W-V2}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 0.8, 0.9, 0.95, 1.0~(STD)$ 
+
+</div>
+
 ❗NOTE: Download from [GoogleDrive](https://drive.google.com/file/d/1TDESVvXh5eq2aW50qGuqqNajy5Mkc6Nw/view?usp=sharing) (6.09G) and unzip it to make those files **satisfy the following file hierarchy**:
 ```
 ROOT
@@ -299,5 +315,5 @@ Please condiser citing this paper if you use the ```code``` or ```data``` from o
 Thanks a lot :)
 
 ## 💡 Acknowledgement
-- Our prior work: [```MEAformer```](https://github.com/zjukg/MEAformer)
+- Our prior work: [```MEAformer```](https://github.com/zjukg/MEAformer), [```Multi-OpenEA```]()
 - We appreciate [```MCLEA```](https://github.com/lzxlin/MCLEA), [```MSNEA```](https://github.com/liyichen-cly/MSNEA), [```EVA```](https://github.com/cambridgeltl/eva), [```MMEA```](https://github.com/liyichen-cly/MMEA) and many other related works for their open-source contributions.
