@@ -75,7 +75,7 @@ pip install -r requirement.txt
 ❗Tips: you can open the `run_umaea_X.sh` file for parameter or training target modification.
 
 ## 📚 Dataset (MMEA-UMVM)
->To create our `MMEA-UMVM` (uncertainly missing visual modality) datasets, we perform **random image dropping** on MMEA datasets. Specifically, we randomly discard entity images to achieve varying degrees of visual modality missing, ranging from 0.05 to the maximum $R_{img}$ of the raw datasets with a step of 0.05 or 0.1. Finally, we get a total number of 97 data split as follow:
+>To create our `MMEA-UMVM` (uncertainly missing visual modality) datasets, we perform **random image dropping** on MMEA datasets. Specifically, we randomly discard entity images to achieve varying degrees of visual modality missing, ranging from 0.05 to the maximum $R_{img}$ of the raw datasets with a step of 0.05 or 0.1 (The raw images are available at [```Multi-OpenEA```](https://github.com/THUKElab/Multi-OpenEA)). Finally, we get a total number of 97 data split as follow:
 
 <div align="center">
     
@@ -335,5 +335,5 @@ Thanks a lot :)
 ```
 
 ## 💡 Acknowledgement
-- Our prior work: [```MEAformer```](https://github.com/zjukg/MEAformer), [```Multi-OpenEA```]()
+- Our prior work: [```MEAformer```](https://github.com/zjukg/MEAformer), [```Multi-OpenEA```](https://github.com/THUKElab/Multi-OpenEA)
 - We appreciate [```MCLEA```](https://github.com/lzxlin/MCLEA), [```MSNEA```](https://github.com/liyichen-cly/MSNEA), [```EVA```](https://github.com/cambridgeltl/eva), [```MMEA```](https://github.com/liyichen-cly/MMEA) and many other related works for their open-source contributions.
