@@ -290,3 +290,11 @@ mmkg
 └── UMAEA
     └── save
 ```
+
+## 🤝 Cite:
+Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
+Thanks a lot :)
+
+## 💡 Acknowledgement
+- Our prior work: [```MEAformer```](https://github.com/zjukg/MEAformer)
+- We appreciate [```MCLEA```](https://github.com/lzxlin/MCLEA), [```MSNEA```](https://github.com/liyichen-cly/MSNEA), [```EVA```](https://github.com/cambridgeltl/eva), [```MMEA```](https://github.com/liyichen-cly/MMEA) and many other related works for their open-source contributions.
