@@ -72,10 +72,10 @@ pip install -r requirement.txt
 >> bash run_umaea_012012.sh 0 DBP15K zh_en 0.3 0.2
 ```
 
-❗Tips: you can open the `run_umaea_X.sh` file for parameter or training target modification.
+📌 **Tips**: you can open the `run_umaea_X.sh` file for parameter or training target modification.
 
 ## 📚 Dataset (MMEA-UMVM)
->To create our `MMEA-UMVM` (uncertainly missing visual modality) datasets, we perform **random image dropping** on MMEA datasets. Specifically, we randomly discard entity images to achieve varying degrees of visual modality missing, ranging from 0.05 to the maximum $R_{img}$ of the raw datasets with a step of 0.05 or 0.1 (The raw images are available at [`Baidu Cloud Drive`](https://pan.baidu.com/s/1oikW9BlutAvfJHcfMLDcDQ) with the pass code **`aoo1`** ). Finally, we get a total number of 97 data split as follow:
+>To create our `MMEA-UMVM` (uncertainly missing visual modality) datasets, we perform **random image dropping** on MMEA datasets. Specifically, we randomly discard entity images to achieve varying degrees of visual modality missing, ranging from 0.05 to the maximum $R_{img}$ of the raw datasets with a step of 0.05 or 0.1. Finally, we get a total number of 97 data split as follow:
 
 <div align="center">
     
@@ -91,7 +91,9 @@ $OpenEA_{D-W-V2}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 
 
 </div>
 
-❗NOTE: Download from [GoogleDrive](https://drive.google.com/file/d/1TDESVvXh5eq2aW50qGuqqNajy5Mkc6Nw/view?usp=sharing) (6.09G) and unzip it to make those files **satisfy the following file hierarchy**:
+📍 **Download**: 
+- **[ Option ]** The raw Multi-OpenEA images are available at [`Baidu Cloud Drive`](https://pan.baidu.com/s/1oikW9BlutAvfJHcfMLDcDQ) with the pass code **`aoo1`**. We only filter the `RANK NO.1` image for each entity.
+- The training data are available at [GoogleDrive](https://drive.google.com/file/d/1TDESVvXh5eq2aW50qGuqqNajy5Mkc6Nw/view?usp=sharing) (6.09G). Unzip it to make those files **satisfy the following file hierarchy**:
 ```
 ROOT
 ├── data
