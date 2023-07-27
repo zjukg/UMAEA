@@ -333,10 +333,10 @@ Thanks a lot :)
                   Yin Fang and
                   Yichi Zhang and
                   Jiaoyan Chen and
-                  Wen Zhang and
                   Jeff Z. Pan and
                   Yangning Li and
-                  Huajun Chen},
+                  Huajun Chen and
+                  Wen Zhang},
   title        = {Rethinking Uncertain Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment},
   booktitle    = {{ISWC}},
   series       = {Lecture Notes in Computer Science},
