@@ -1,4 +1,4 @@
-# UMAEA
+# 🏝️ UMAEA
 ![](https://img.shields.io/badge/version-1.0.1-blue)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjukg/UMAEA/blob/main/LICENSE)
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
@@ -36,7 +36,7 @@ pip install -r requirement.txt
 - **Optional**: Using the `bash command`
 ```bash
 # Command Details:
-# bash file / GPU / Dataset / data split / R_{sa} / R_{img}
+# Bash file / GPU / Dataset / Data Split / R_{sa} / R_{img}
 # Begin:
 # ---------- R_{img} = 0.4 & iter. & w/o CMMI ----------
 >> bash run_umaea_00.sh 0 OEA_D_W_15K_V1 norm 0.2 0.4
@@ -101,6 +101,9 @@ ROOT
 ```
 
 #### Code Path
+<details>
+    <summary>👈 🔎 Click</summary>
+    
 ```
 UMAEA
 ├── config.py
@@ -130,10 +133,14 @@ UMAEA
 └── tree.txt
 ```
 
+</details>
 
 
 
 #### Data Path
+<details>
+     <summary>👈 🔎 Click</summary>
+    
 ```
 mmkg
 ├── dump
@@ -310,6 +317,8 @@ mmkg
 └── UMAEA
     └── save
 ```
+
+</details>
 
 ## 🤝 Cite:
 Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
