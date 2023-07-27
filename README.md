@@ -93,7 +93,7 @@ $OpenEA_{D-W-V2}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 
 
 📍 **Download**: 
 - **[ Option ]** The raw Multi-OpenEA images are available at [`Baidu Cloud Drive`](https://pan.baidu.com/s/1oikW9BlutAvfJHcfMLDcDQ) with the pass code **`aoo1`**. We only filter the `RANK NO.1` image for each entity.
-- The training data are available at [GoogleDrive](https://drive.google.com/file/d/1TDESVvXh5eq2aW50qGuqqNajy5Mkc6Nw/view?usp=sharing) (6.09G). Unzip it to make those files **satisfy the following file hierarchy**:
+- The training data is available at [GoogleDrive](https://drive.google.com/file/d/1TDESVvXh5eq2aW50qGuqqNajy5Mkc6Nw/view?usp=sharing) (6.09G). Unzip it to make those files **satisfy the following file hierarchy**:
 ```
 ROOT
 ├── data
