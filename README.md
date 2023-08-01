@@ -2,9 +2,10 @@
 ![](https://img.shields.io/badge/version-1.0.1-blue)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjukg/UMAEA/blob/main/LICENSE)
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![arxiv badge](https://img.shields.io/badge/arxiv-2212.14454-red)](https://arxiv.org/abs/2307.16210)
 [![ISWC2023](https://img.shields.io/badge/ISWC-2023-%23bd9f65?labelColor=%23bea066&color=%23ffffff)](https://iswc2023.semanticweb.org/)
 
-- [*Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment*]()
+- [*Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment*](https://arxiv.org/abs/2307.16210)
 >In the face of modality incompleteness, some models succumb to overfitting the modality noise, and exhibit performance oscillations or declines at high modality missing rates. This indicates that the inclusion of additional multi-modal data can sometimes **adversely affect EA**. To address these challenges, we introduces **`UMAEA`**, a robust multi-modal entity alignment approach designed to tackle **uncertainly missing and ambiguous visual modalities**.
 
 <div align="center">
