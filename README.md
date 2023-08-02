@@ -35,6 +35,7 @@ pip install -r requirement.txt
 >> bash run.sh
 ```
 - **Optional**: Using the `bash command`
+- **Model Training Recommendation📍**: For more stable and efficient model training, we suggest using the code `without CMMI` (`w/o CMMI`) initially. If you plan to use this model as a baseline, we also recommend using the script `without CMMI` to directly measure the model's performance in an **End2End** scenario.
 ```bash
 # Command Details:
 # Bash file / GPU / Dataset / Data Split / R_{sa} / R_{img}
