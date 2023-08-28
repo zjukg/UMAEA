@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python  main.py \
             --stage 0 \
             --adapt vae \
             --ratio $5 \
-            --stage_epoch "5,0,0" \
+            --stage_epoch "250,0,0" \
             --il_stage_epoch "0,0,0" \
             --semi_learn_step 5 \
 	    --csls          \
