@@ -76,6 +76,17 @@ pip install -r requirement.txt
 
 📌 **Tips**: you can open the `run_umaea_X.sh` file for parameter or training target modification.
 
+## 🎯 Standard Results
+
+$\bf{H@1}$ Performance with the Settings: **`w/o surface & Non-iterative`**. We modified part of the [MSNEA](https://github.com/liyichen-cly/MSNEA) to involve not using the content of attribute values but only the attribute types themselves (See [issues](https://github.com/zjukg/MEAformer/issues/3) for details):
+| Method | $\bf{DBP15K_{ZH-EN}}$ | $\bf{DBP15K_{JA-EN}}$ | $\bf{DBP15K_{FR-EN}}$ |
+|:------------------:|:----------------:|:----------------:|:----------------:|
+|        [MSNEA](https://github.com/liyichen-cly/MSNEA)          |    .648     |     .541     |      .557     |
+|        [EVA](https://github.com/cambridgeltl/eva)          |    .683     |     .669    |      .686     |
+|        [MCLEA](https://github.com/lzxlin/mclea)          |    .726     |     .719     |      .719     |
+|        [MEAformer]()         |    **.772**     |     **.764**     |      **.771**     |
+|        [UMAEA](https://github.com/zjukg/umaea)         |    **.800**     |     **.801**     |      **.818**     |
+
 ## 📚 Dataset (MMEA-UMVM)
 >To create our `MMEA-UMVM` (uncertainly missing visual modality) datasets, we perform **random image dropping** on MMEA datasets. Specifically, we randomly discard entity images to achieve varying degrees of visual modality missing, ranging from 0.05 to the maximum $R_{img}$ of the raw datasets with a step of 0.05 or 0.1. Finally, we get a total number of 97 data split as follow:
 
