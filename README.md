@@ -75,6 +75,10 @@ pip install -r requirement.txt
 ```
 
 📌 **Tips**: you can open the `run_umaea_X.sh` file for parameter or training target modification.
+- `stage_epoch`: The number of epochs in each stage **( 1 / 2-1 / 2-2 )**
+    - E.g., "250,0,0"
+- `il_stage_epoch`: The number of epochs in each iterative stage **( 1 / 2-1 / 2-2 )**
+    - E.g., "0,0,0"
 
 ## 🎯 Standard Results
 
