@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/zjukg/UMAEA/blob/main/IMG/umaea.png" alt="Logo" width="250">
+  <img src="https://github.com/zjukg/UMAEA/blob/main/IMG/umaea.png" alt="Logo" width="200">
 </div>
 
 # 🏝️ [Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment](https://arxiv.org/abs/2307.16210)
