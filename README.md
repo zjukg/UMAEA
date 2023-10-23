@@ -1,6 +1,6 @@
-<div align="center">
+<!--<div align="center">
   <img src="https://github.com/zjukg/UMAEA/blob/main/IMG/UMAEA2.jpg" alt="Logo" width="600">
-</div>
+</div>-->
 
 # 🏝️ [Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment](https://arxiv.org/abs/2307.16210)
 ![](https://img.shields.io/badge/version-1.0.0-blue)
