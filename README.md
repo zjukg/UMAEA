@@ -353,7 +353,7 @@ Please condiser citing this paper if you use the ```code``` or ```data``` from o
 Thanks a lot :)
 
 ```bigquery
-@inproceedings{chen2023rethinking,
+@inproceedings{DBLP:conf/semweb/ChenGFZCPLCZ23,
   author       = {Zhuo Chen and
                   Lingbing Guo and
                   Yin Fang and
@@ -363,9 +363,12 @@ Thanks a lot :)
                   Yangning Li and
                   Huajun Chen and
                   Wen Zhang},
-  title        = {Rethinking Uncertain Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment},
+  title        = {Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal
+                  Entity Alignment},
   booktitle    = {{ISWC}},
   series       = {Lecture Notes in Computer Science},
+  volume       = {14265},
+  pages        = {121--139},
   publisher    = {Springer},
   year         = {2023}
 }
