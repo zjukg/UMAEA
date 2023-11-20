@@ -119,7 +119,13 @@ $OpenEA_{D-W-V2}$ | $0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 
 
 📍 **Download**: 
 - **[ Option ]** The raw Multi-OpenEA images are available at [`Baidu Cloud Drive`](https://pan.baidu.com/s/1oikW9BlutAvfJHcfMLDcDQ) with the pass code **`aoo1`**. We only filter the `RANK NO.1` image for each entity.
-- The training data is available at [GoogleDrive](https://drive.google.com/file/d/1TDESVvXh5eq2aW50qGuqqNajy5Mkc6Nw/view?usp=sharing) (6.09G). Unzip it to make those files **satisfy the following file hierarchy**:
+- **[ Option ]** The raw images of entities appeared in DBP15k can be downloaded from [dropbox](https://www.dropbox.com/sh/rnvtnjhymbu8wh0/AACONryOmrNvoCkir2R8Dwxha?dl=0) (108GB after unzipping, see [EVA](https://github.com/cambridgeltl/eva) for details). All images are saved as title-image pairs in dictionaries and can be accessed with the following code :
+```python
+import pickle
+zh_images = pickle.load(open("eva_image_resources/dbp15k/zh_dbp15k_link_img_dict_full.pkl",'rb'))
+print(en_images["http://zh.dbpedia.org/resource/香港有線電視"].size)
+```
+- 🎯 The training data is available at [GoogleDrive](https://drive.google.com/file/d/1TDESVvXh5eq2aW50qGuqqNajy5Mkc6Nw/view?usp=sharing) (6.09G). Unzip it to make those files **satisfy the following file hierarchy**:
 ```
 ROOT
 ├── data
